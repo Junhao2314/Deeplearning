@@ -26,22 +26,6 @@
 
 ---
 
-## 📊 遥感大模型对比总结
-
-<div align="center">
-
-| **维度** | **RSVA (2022)** | **SkySense (2024)** | **SkySense++ (2025)** | **GeoChat (2024)** |
-|---------|----------|--------------|-------------|-------------|
-| **模态** | 可见光 | RGB+SAR+时序 | 高分辨率光学+Sentinel-2+Sentinel-1 | RGB (+可扩展) |
-| **参数量** | 1亿 | 20亿 | 未公布 | 7B LLM + ViT |
-| **最强技能** | 旋转检测 | 多模态融合 | In-context Learning | 对话&定位 |
-| **下游成本** | 微调1-2小时 | 零样本/微调皆可 | 几乎无标注 | 零样本对话 |
-| **一句话总结** | ViT的遥感特化版 | 遥感界的GPT-4V | 语义增强的少样本学习王者 | 让卫星开口说话 |
-
-</div>
-
----
-
 ## 📚 论文列表
 
 ### 1. Domain Generalization for Semantic Segmentation of Remote Sensing Images via Vision Foundation Model Fine-tuning
